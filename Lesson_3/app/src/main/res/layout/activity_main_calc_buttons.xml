@@ -204,7 +204,6 @@
         android:id="@+id/button10"
         android:layout_width="168dp"
         android:layout_height="wrap_content"
-
         android:layout_marginTop="8dp"
         android:text="@string/_0"
         android:textSize="@dimen/button_text_size"
@@ -259,12 +258,19 @@
         app:layout_constraintTop_toBottomOf="@+id/button13" />
 
     <FrameLayout
-        android:id="@+id/calc_csreen"
         android:layout_width="340dp"
-        android:layout_height="75dp"
+        android:layout_height="30dp"
         android:layout_marginBottom="8dp"
         android:background="#C4FAF5"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/calc_screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/calc_screen_text_size"
+            app:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
