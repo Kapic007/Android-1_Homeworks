@@ -3,4 +3,5 @@
     <dimen name="margin_button">4dp</dimen>
     <dimen name="button_width">80dp</dimen>
     <dimen name="button_text_size">18sp</dimen>
+    <dimen name="calc_screen_text_size">20sp</dimen>
 </resources>

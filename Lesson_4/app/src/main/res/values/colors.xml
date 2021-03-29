@@ -9,4 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="button_additional_color">#673AB7</color>
     <color name="button_clear_color">#FF9800</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="calcScreen">#C4FAF5</color>
+    <color name="calcScreenDark">#2c4d49</color>
 </resources>
